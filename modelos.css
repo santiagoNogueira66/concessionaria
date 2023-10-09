@@ -84,8 +84,8 @@ font-size: 30px;
 }
 
 p .span-rodape{
-    border: 2px solid black;
-    border-radius: 15px;
+    	border: 2px solid black;
+    	border-radius: 15px;
 	font: 700 4em "Oswald", sans-serif;
   	letter-spacing: 0;
   	padding: .25em 0 .325em;
@@ -93,14 +93,14 @@ p .span-rodape{
 	margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
-  	background: url("animated-text-fill.png") repeat-y;
+  	background: url("imgns/animated-text-fill.png") repeat-y;
 	-webkit-background-clip: text;
-    background-clip: text;
+  	background-clip: text;
 
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: aitf 80s linear infinite;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
 }
 
 @-webkit-keyframes aitf {
