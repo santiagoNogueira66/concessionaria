@@ -1,0 +1,111 @@
+body {
+    font-family: 'arial',sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar{
+	display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 20px;
+}
+
+.navbar a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, sans-serif;
+	color: white;
+}
+
+.navbar a:hover{
+	color:rgb(63, 72, 204);
+}
+.navlist li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px;
+font-size: 30px;
+}
+.navlist li a:hover{
+  background-color: #dddddd;
+}
+
+.navbar a:hover{
+    color:rgb(115, 174, 224);
+}
+
+.navbar{
+  background-color: rgb(63, 72, 204);
+}
+.container {
+    text-align: center;
+    margin: 3em;
+}
+
+.car-type {
+    display: inline-block;
+    margin: 1px;
+    padding: 1em;
+    border: 1.7px solid black;
+    border-radius: 20px;
+}
+
+.meu-botao {
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-color: rgb(255, 255, 255);
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.meu-botao:hover{
+    transform:scale(1.1);
+    background-color: rgb(63, 72, 204);
+}
+
+.meu-botao a{         
+    text-decoration: none; 
+    color: #000000;
+    font-size: 35px;
+}
+.center{
+    text-align: center;
+}
+
+p .span-rodape{
+    border: 2px solid black;
+    border-radius: 15px;
+	font: 700 4em "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	display: block;
+	margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+  	background: url("imgns/animated-text-fill.png") repeat-y;
+	-webkit-background-clip: text;
+    background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+}
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+

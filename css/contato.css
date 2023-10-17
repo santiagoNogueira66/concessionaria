@@ -1,0 +1,84 @@
+.body{
+    background-color:rgb(63, 72, 204);
+   
+}
+.navbar{
+	display: flex;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 20px;
+}
+
+.navbar a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Impact, Haettenschweiler, sans-serif;
+    color: white;
+}
+
+.navbar a:hover{
+    color:rgb(115, 174, 224);
+}
+
+.navlist li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+.navlist li a:hover{
+  background-color: #dddddd;
+}
+
+.navbar{
+  background-color: rgb(63, 72, 204);
+}
+
+.section-block {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: rgb(63, 72, 204);
+    
+
+}
+.section-block a {
+    margin-right: 10px; 
+}
+
+
+.center{
+    text-align: center;
+}
+
+.paragafro-aumentado{
+    font-size: 25px;
+}
+
+.meu-botao {
+   
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(63, 72, 204);
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.meu-botao a{
+text-decoration: none; 
+color: #000000; 
+font-size: 35px;
+}
+
