@@ -11,27 +11,22 @@
 }
 
 .meu-botao {
-    margin-right: 2em;
     display: inline-block; 
     padding: 10px 20px; 
-    border: 1px solid black; 
+    border: 1px solid black;
     border-radius: 10px; 
-    background-color: rgb(255, 255, 255); 
-    font-size: 16px; 
+    background-color: rgb(255, 255, 255);
+    font-size: 25px; 
     cursor: pointer; 
+    text-decoration: none;
+    color: #000000;
+    margin-left: 30px;
 }
 
 .meu-botao:hover{
     transform: scale(1.1);
     background-color: rgb(63,72,204);
 }
-
-.meu-botao a{       
-    text-decoration: none; 
-    color: #000000;
-    font-size: 35px;
-}
-
 
 .p{
     text-align: center;
