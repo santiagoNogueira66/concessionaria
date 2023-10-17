@@ -5,7 +5,7 @@ body {
 }
 
 .navbar{
-	display: flex;
+    display: flex;
     align-items: center;
     height: 10vh;
 }
@@ -33,7 +33,7 @@ body {
   text-decoration: none;
   text-align: center;
   padding: 10px 10px;
-font-size: 30px;
+  font-size: 30px;
 }
 .navlist li a:hover{
   background-color: #dddddd;
@@ -91,14 +91,14 @@ p .span-rodape{
 	margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
-  	background: url("imgns/animated-text-fill.png") repeat-y;
+  	background: url("../imgns/animated-text-fill.png") repeat-y;
 	-webkit-background-clip: text;
-    background-clip: text;
+    	background-clip: text;
 
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: aitf 80s linear infinite;
-    -webkit-transform: translate3d(0,0,0);
-    -webkit-backface-visibility: hidden;
+    	-webkit-transform: translate3d(0,0,0);
+    	-webkit-backface-visibility: hidden;
 }
 
 @-webkit-keyframes aitf {
