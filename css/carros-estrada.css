@@ -15,7 +15,7 @@
 .meu-botao {
     margin-right: 2em;
     display: inline-block; 
-    padding: 0.5em 0.1em; 
+    padding: 10px 20px; 
     border: 0.1em solid black; 
     border-radius: 0.5em; 
     background-color: rgb(255, 255, 255); 
