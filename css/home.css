@@ -1,8 +1,7 @@
 
-/*imagem do plano de fundo*/
 
 body{
-	background-image: url(imgns/gif-do-carro-da-loja-do-seu-carango.gif);
+	background-image: url(../imgns/gif-do-carro-da-loja-do-seu-carango.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -73,7 +72,7 @@ p .span{
 	margin: 0 auto;
   	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
-  	background: url("imgns/animated-text-fill.png") repeat-y;
+  	background: url("../imgns/animated-text-fill.png") repeat-y;
 	-webkit-background-clip: text;
     background-clip: text;
 
