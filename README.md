@@ -1,7 +1,7 @@
 # concessionaria
  <br>
 
-o professor disponiblizoua base do site etinha que estilizar e complentar o restante das pagina pois havia apenas a pagina home
+o professor disponiblizoua base do site e os alunos tinha que fazer estilização e complentar o restante das pagina pois havia apenas a pagina home 
 <br>
 
 
